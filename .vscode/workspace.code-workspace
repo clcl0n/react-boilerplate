@@ -4,5 +4,15 @@
 			"path": "../"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"eslint.validate": ["javascript"]
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	}
 }
